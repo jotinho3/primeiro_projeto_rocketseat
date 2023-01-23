@@ -1,0 +1,105 @@
+.Post {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    background-color: var(--gray-800);
+    gap: 1.2rem;
+    font-size: smaller;
+    margin-bottom: 1rem;
+    
+}
+
+.Header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Header .Avatar {
+    display: flex;
+    gap: 10px;
+}
+
+.Header .AvatarInfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.Header .AvatarImg {
+    height: 3rem;
+}
+
+.Content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Content a{
+    text-decoration: none;
+    color: var(--green-500);
+
+}
+
+.commentForm {
+    width: 100%;
+    margin-top: 1.5rem ;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--gray-600);
+}
+
+.commentForm > strong {
+    line-height: 1.6;
+    color: var(--gray-100);
+}
+
+.commentForm textarea{
+    width: 100%;
+    background: var(--gray-900);
+    border: 0;
+    resize: none;
+    height: 6rem;
+    padding: 1rem;
+    border-radius: 8px;
+    color: var(--gray-100);
+    line-height: 1.4;
+    margin-top: 1rem;     
+}
+
+.commentForm button[type="submit"] {
+    padding: 1rem 1.5rem;
+    margin-top: 1rem;
+    border-radius: 8px;
+    border: 0;
+    background-color: var(--green-500);
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+    transition: opacity 0.5s linear;
+  
+}
+
+.commentForm button[type="submit"]:not(:disabled):hover {
+    background-color: var(--green-300);
+    transition: background-color linear 0.3s;
+
+    
+}
+
+
+.commentForm button[type="submit"]:disabled {
+    
+    opacity: 0.7;
+    cursor: not-allowed;
+
+    
+}
+
+
+
+
+
+
+.commentForm strong {
+    font-size: 0.8rem;
+}

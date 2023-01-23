@@ -1,0 +1,38 @@
+[
+    {
+        "id": "1",
+        "author": {
+            "name": "João Pedro Marques Chaves",
+            "avatarURL": "https://github.com/jotinho3.png"
+        },
+        "content": "Muito bom Devon! Post excepcional!",
+        "date": "05-07-2023"
+       
+
+
+    },
+    {
+        "id": "2",
+        "author": {
+            "name": "Mayk Brito",
+            "avatarURL": "https://github.com/maykbrito.png"
+        },
+        "content": "Muito bom Devon! Post excepcional!",
+        "date": "05-07-2023"
+        
+
+
+    },
+    {
+        "id": "3",
+        "author": {
+            "name": "João Pedro Marques Chaves",
+            "avatarURL": "https://github.com/jotinho3.png"
+        },
+        "content": "Muito bom Devon! Post excepcional!",
+        "date": "05-07-2023"
+       
+
+
+    }
+]
