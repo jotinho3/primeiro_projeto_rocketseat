@@ -12,7 +12,7 @@ export function Sidebar() {
       />
       <div className={styles.Profile}>
         <Avatar hasBorder={true}  src="https://github.com/jotinho3.png"/>
-        <strong>Diego Fernandes</strong>
+        <strong>João Pedro Marques Chaves</strong>
         <span>Web Developer</span>
       </div>
 
